@@ -22,7 +22,6 @@ class LoginController extends Controller
     use AuthenticatesUsers;
 
     public const REDIRECTTO = 'dashboard';
-
     /**
      * Where to redirect users after login.
      *
