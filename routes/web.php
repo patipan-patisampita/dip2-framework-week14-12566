@@ -24,4 +24,4 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 //Route::view('/dashboard', 'admin.dashboard');
-Route::get('/dashboard', [DashboardController::class, 'index'])->name('index');
+Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
