@@ -24,7 +24,8 @@ class RegisterController extends Controller
 
     use RegistersUsers;
 
-    public const REDIRECTTO = 'dashboard';
+    // public const REDIRECTTO = 'dashboard';
+    public const REDIRECTTO = 'admin/dashboard';
 
     /**
      * Where to redirect users after registration.
